@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: Roboto;
+  background-color: #fff5e1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23fbcd41' fill-opacity='0.23'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.title {
+  background-color: rgb(255, 127, 80);
+  text-align: center;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  color: rgb(253, 105, 51);
+  background-color: rgb(252, 219, 196);
+  transition: 0.3s;
+  text-align: center;
+  line-height: 60px;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 275px;
+  height: 450px;
+  margin: 15px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+h2 {
+  font-weight: bold;
+}
